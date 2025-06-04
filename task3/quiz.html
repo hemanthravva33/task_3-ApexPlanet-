@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-End Development Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="quiz-container">
+    <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+    <div id="start-screen" class="start-screen">
+      <h1 class="quiz-title">Front-End Quiz 🚀</h1>
+      <input type="text" id="user-name" placeholder="Enter your name" required>
+      <div class="timer-options">
+        <label>Difficulty:</label>
+        <select id="difficulty-select">
+          <option value="easy">Easy (40s)</option>
+          <option value="medium" selected>Medium (30s)</option>
+          <option value="hard">Hard (20s)</option>
+        </select>
+      </div>
+      <button id="start-btn" class="start-btn">Start Quiz</button>
+    </div>
+    <div id="quiz-screen" class="quiz-screen hidden">
+      <h1 class="quiz-title">Front-End Quiz 🚀</h1>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <div class="score-timer">
+        <span id="score">Score: 0</span>
+        <span id="streak">Streak: 0</span>
+        <span id="timer">Time: 30s</span>
+      </div>
+      <div id="question" class="question"></div>
+      <ul id="answer-buttons" class="answer-buttons"></ul>
+      <div id="notification" class="notification hidden"></div>
+      <div class="button-group">
+        <button id="hint-btn" class="hint-btn">Hint (-1 pt)</button>
+        <button id="back-btn" class="back-btn">Back</button>
+        <button id="skip-btn" class="skip-btn">Skip</button>
+        <button id="next-btn" class="next-btn">Next</button>
+      </div>
+      <div id="results" class="results hidden"></div>
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
