@@ -1,0 +1,35 @@
+# 🧠 Front-End Development Quiz | Task 3 - ApexPlanet Internship
+
+This is a simple yet interactive **Front-End Development Quiz** project built as part of **Task 3** of the **Web Development Internship** at **ApexPlanet Software Pvt Ltd**.
+
+## 🚀 Project Objective
+
+The goal of this project is to:
+- Build an interactive quiz using **HTML**, **CSS**, and **JavaScript**
+- Strengthen JavaScript skills by handling DOM events and logic
+- Practice responsive design for multiple screen sizes
+
+## 🛠️ Features
+
+- Multiple-choice quiz on **Front-End Development**
+- Real-time score calculation and feedback
+- Responsive layout for mobile, tablet, and desktop
+- Clean and modern UI
+
+## 📚 Technologies Used
+
+- HTML5  
+- CSS3 (with Media Queries)  
+- JavaScript (ES6)
+
+## 📸 Screenshots
+
+> Add a few screenshots or a screen recording of your quiz UI and functionality here
+
+## 🧩 Project Structure
+
+```bash
+├── quiz.html         # Structure of the quiz
+├── quiz.css          # Styling and responsive layout
+├── quiz.js          # Quiz logic, scoring, DOM manipulation
+└── README.md          # Project details and documentation
